@@ -47,6 +47,7 @@ ActiveRecord::Schema.define(version: 20180425195752) do
     t.string "ranking"
     t.integer "games_played"
     t.integer "games_won"
+    t.string "image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

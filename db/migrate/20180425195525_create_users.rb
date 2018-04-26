@@ -5,6 +5,7 @@ class CreateUsers < ActiveRecord::Migration[5.1]
       t.string :ranking
       t.integer :games_played
       t.integer :games_won
+      t.string :image
 
       t.timestamps
     end
